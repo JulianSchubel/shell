@@ -2,8 +2,6 @@
 	Title:		Shell
 	Author:		Julian Schubel
 	Contact:	schublejulian@gmail.com
-
-	History:
 ************************************** */
 
 #include <stdio.h>
@@ -13,7 +11,7 @@
 #include <string.h>
 #include "./utils/parse_cmd.h"
 
-int main(int argc, char * argv[])
+int main()
 {
 	//REPL sentinal value
 	int repl_state = 1;

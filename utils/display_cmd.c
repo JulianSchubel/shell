@@ -7,7 +7,7 @@ void display_cmd(cmd_t *cmd)
 	printf("ARGUMENT COUNT: %d\n", cmd->argc);	
 	printf("ARGUMENT ARRAY CAPACITY: %d\n", cmd->capacity);	
 	printf("ARGUMENTS:\n");
-	for(int i = 0; i < cmd->argc; ++i)
+	for(unsigned int i = 0; i < cmd->argc; ++i)
 	{
 		printf("\tARGUMENT %d: %s\n", i, cmd->args[i]); 
 	}
