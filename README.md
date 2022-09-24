@@ -1,2 +1,2 @@
-*** Shell *** 
+#Shell
 A simple shell implementation supporting external shell command such as ls, cd, echo, cat, etc...
